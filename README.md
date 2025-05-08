@@ -1,13 +1,13 @@
 # ComfyUI Face Liquify
 
-一个用于ComfyUI的人脸液化效果插件，支持多种脸部变形效果和批量处理功能。
+一个用于ComfyUI的人脸液化效果插件，支持单图多种脸部变形效果和批量处理功能（视频）。
 
 ## 功能特点
 
 - 支持多种脸部变形效果：
   - **Fat Face**: 胖脸效果，使脸部看起来更饱满
-  - **Thin Face**: 大眼效果，增大眼睛
-  - **Big Face**: 尖脸效果，使脸部轮廓更加锐利
+  - **Thin Face**: 瘦脸效果
+  - **Big Face**: 大脸效果
   - **Small Face**: 小脸效果，整体缩小脸部
 
 - 支持多人脸处理，可以按照不同顺序选择处理人脸：
@@ -31,7 +31,7 @@
 
 - 已安装的ComfyUI环境
 - Python 3.8+
-- CUDA环境（推荐）用于GPU加速
+- CUDA环境（推荐）用于GPU加速，系统的cuda和torch的cuda要一致
 
 ## 安装方式
 
@@ -72,8 +72,12 @@ pip install -r requirements.txt
 - **face_indices**: 指定处理哪些人脸（all或0,1,2...）
 
 ## 示例
+![image](https://github.com/user-attachments/assets/58784783-1b03-4de6-898f-1860c51dd5d7)
 
-[这里可以放一些示例图像和工作流示意图]
+
+https://github.com/user-attachments/assets/19bfe38f-7fb0-4a63-8dc8-58124be2d1e1
+
+
 
 ## 许可证
 
