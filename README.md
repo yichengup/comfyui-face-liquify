@@ -65,7 +65,7 @@ pip install -r requirements.txt
 - **effect_type**: 变形效果类型
 - **strength**: 效果强度（0-1）
 - **eye_scale**: 眼睛放大比例（用于Thin Face效果）
-- **smooth**: 效果平滑度（0-1）
+- **smooth**: 效果平滑度（0-1）,建议效果为0
 - **area_scale**: 变形区域大小（0.5-2.0）
 - **frame_blend**: 帧间混合强度（用于视频处理）
 - **face_order**: 多人脸处理顺序
