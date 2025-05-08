@@ -31,7 +31,7 @@
 
 - 已安装的ComfyUI环境
 - Python 3.8+
-- CUDA环境（推荐）用于GPU加速，系统的cuda和torch的cuda要一致
+- CUDA环境（推荐）用于GPU加速，系统的cuda和torch的cuda要一致，这样生成的时间20s左右，不然用cpu很慢。
 
 ## 安装方式
 
