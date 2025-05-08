@@ -1,0 +1,6 @@
+insightface>=0.7.3
+numpy>=1.20.0
+opencv-python>=4.5.0
+torch>=1.7.0
+onnxruntime-gpu>=1.8.0; platform_system != "Darwin"
+onnxruntime>=1.8.0; platform_system == "Darwin" 
