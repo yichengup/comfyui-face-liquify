@@ -1,0 +1,15 @@
+[project]
+name = "face-liquify"
+description = "video face liquefaction"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["insightface>=0.7.3", "numpy>=1.20.0", "opencv-python>=4.5.0", "torch>=1.7.0", "onnxruntime-gpu>=1.8.0", "onnxruntime>=1.8.0"]
+
+[project.urls]
+Repository = "https://github.com/yichengup/comfyui-face-liquify"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-face-liquify"
+Icon = ""
